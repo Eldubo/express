@@ -1,4 +1,4 @@
-const API_KEY = "tu_api_key"; // Reemplazar con una API Key válida de OMDB
+const API_KEY = "http://www.omdbapi.com/?i=tt3896198&apikey=cb63ad37";
 const BASE_URL = "http://www.omdbapi.com/";
 
 async function fetchFromOMDB(params) {
